@@ -11,18 +11,19 @@ We have not opted for a specific license. However, designing such materials is t
 You need the following programs installed:
 - Visual studio code, which you can download from: https://code.visualstudio.com/download
 - Python, which you can download from: https://www.python.org/downloads/
-- Git, whcih you visit here for: https://git-scm.com 
+- Git, which you visit here for: https://git-scm.com 
 
 Then you need to clone the repository as follow:
 ~~~
-Git clone https://github.com/BruteforceMisa/wiccon-workshop
+git clone https://github.com/BruteforceMisa/wiccon-workshop
 cd wiccon-workshop
-Git lfs install
-Git lfs pull
+git lfs install
+git lfs pull
 ~~~
 
-Then open the downloaded repository in VSCod.
+Then, open the downloaded repository in VSCode.
+Open the first Jupyter Notebook (/codebase/exercises/). 
+At the right top corner, click "select kernel" and create a new .venv with Python environment.
+To install dependencies, check the checkbox "requirements.txt"
 
-Select kernel -> create new .venv with Python environment.
-
-Install from requirements.txt.
+You should be ready to go!

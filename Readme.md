@@ -23,13 +23,13 @@ git lfs pull
 ~~~
 
 Then, open the downloaded repository in VSCode and perform the following steps:
-- Open the file "01-intro-sca.ipynb", which is loacted in codebase/exercises
+- Open the Jupyter Notebook "01-intro-sca.ipynb", which is loacted in codebase/exercises
 - In the right top corner, click "Select kernel"
 - In VSCode, a bar will occur. If extensions are not installed, click "install python and extensions"
 - If VSCode asks you to install IPykernel, select "install"
 - Then, create a kernel. Select "Create new virtual environment" and select "Python 3.12" as interpreter
 - To install dependencies, select the checkbox "requirements.txt" 
-- Make sure that your new virtual environment (.venv) is selected as kernel
+- Make sure that your new virtual environment (.venv) is selected as kernel within your Jupyter Notebook
 
 You should be ready to go!
 

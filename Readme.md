@@ -38,7 +38,7 @@ You should be ready to go!
 In some cases, creating the environment might give some errors. If you experience issues, try the following:
 - If you manage to create a virtualenvironment, try restart/reselect it in the Notebook
 - In the top bar, you can select "Terminal -> New terminal" 
-- In your terminal, you can activate the virtual environment by ``` source .venv/bin/activate```
+- In your terminal, you can activate the virtual environment by ``` source .venv/bin/activate``` (MacOS & Linux) or ```.venv/scripts/activate.bash```
 - If the packages were not installed correctly, you can install them by running ```pip install numpy chipwhisperer scipy tqdm matplotlib tensorflow```
 
 

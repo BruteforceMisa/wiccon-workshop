@@ -10,8 +10,8 @@ We have not opted for a specific license. However, designing such materials is t
 ## How to use?
 You need the following programs installed:
 - Visual studio code, which you can download from: https://code.visualstudio.com/download
-- Python, which you can download from: https://www.python.org/downloads/
-- Git, which you visit here for: https://git-scm.com 
+- Python 3.12, which you can download from: https://www.python.org/downloads/
+- Git, which you can download via brew (MacOS) or apt-get (Linux) or via this website: https://git-scm.com 
 - Git LFS, which you can download via brew (MacOS) or apt-get (Linux): https://stackoverflow.com/questions/48734119/git-lfs-is-not-a-git-command-unclear
 
 Then you need to clone the repository as follow:
@@ -22,9 +22,23 @@ git lfs install
 git lfs pull
 ~~~
 
-Then, open the downloaded repository in VSCode.
-Open the first Jupyter Notebook (/codebase/exercises/). 
-At the right top corner, click "select kernel" and create a new .venv with Python environment.
-To install dependencies, check the checkbox "requirements.txt"
+Then, open the downloaded repository in VSCode and perform the following steps:
+- Open the file "01-intro-sca.ipynb", which is loacted in codebase/exercises
+- In the right top corner, click "Select kernel"
+- In VSCode, a bar will occur. If extensions are not installed, click "install python and extensions"
+- If VSCode asks you to install IPykernel, select "install"
+- Then, create a kernel. Select "Create new virtual environment" and select "Python 3.12" as interpreter
+- To install dependencies, select the checkbox "requirements.txt" 
+- Make sure that your new virtual environment (.venv) is selected as kernel
 
 You should be ready to go!
+
+
+### Troubleshooting
+In some cases, creating the environment might give some errors. If you experience issues, try the following:
+- If you manage to create a virtualenvironment, try restart/reselect it in the Notebook
+- In the top bar, you can select "Terminal -> New terminal" 
+- In your terminal, you can activate the virtual environment by ``` source .venv/bin/activate```
+- If the packages were not installed correctly, you can install them by running ```pip install numpy chipwhisperer scipy tqdm matplotlib tensorflow```
+
+

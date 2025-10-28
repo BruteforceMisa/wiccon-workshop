@@ -9,7 +9,7 @@ We have not opted for a specific license. However, designing such materials is t
 
 ## How to use?
 You need the following programs installed:
-- Visual studio code, which you can download from: https://code.visualstudio.com/download
+- Visual studio code (VSCode), which you can download from: https://code.visualstudio.com/download
 - Python, which you can download from: https://www.python.org/downloads/
 - Git, which you visit here for: https://git-scm.com 
 - Git LFS, which you can download via brew (MacOS) or apt-get (Linux): https://stackoverflow.com/questions/48734119/git-lfs-is-not-a-git-command-unclear
